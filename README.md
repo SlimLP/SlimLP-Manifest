@@ -1,5 +1,3 @@
-# SlimLP for Huawei
-
 SlimLP_manifest
 ================
 
