@@ -1,9 +1,9 @@
-SlimLP_manifest
+SlimLP
 ================
 
 Local Manifest to build SlimLP for the Huawei Y300 and G510
 
-Build Instructions for SlimLP Y300 (U8833) / G510 (U8951)
+Build Instructions
 -----------------------------------------------------------------------------
 
 1. Initialize repo using the SlimLP manifest (CAF branch)
