@@ -5,25 +5,29 @@ Local Manifest to build SlimLP for the Huawei Y300 and G510
 
 Build Instructions
 -----------------------------------------------------------------------------
+1. Install build software for ubuntu:
+		sudo apt-get install bison build-essential curl flex g++-multilib gcc-multilib git-core gnupg gperf lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev gperf openjdk-7-jdk openjdk-7-jre gcc curl repo python-markdown
 
-1. Initialize repo using the SlimLP manifest (CAF branch)
+	// По мере установки, дополню пакеты...
+
+2. Initialize repo using the SlimLP manifest (CAF branch)
     
 		repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
 
-2. Add my local manifest
+3. Add my local manifest
 
 		mkdir .repo/local_manifests
 		Copy slimlp_huawei.xml to .repo/local_manifests
 
-3. Then sync up the repositories
+4. Then sync up the repositories
 
 		repo sync
 
-4. Initialize the build environment
+5. Initialize the build environment
 
 		source build/envsetup.sh
     
-5. Build the ROM
+6. Build the ROM
 
 		For Y300:
 			brunch u8833
