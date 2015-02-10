@@ -10,7 +10,7 @@ Build Instructions
 		sudo apt-get install bison build-essential curl flex g++-multilib gcc-multilib git-core gnupg gperf 
 		lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev libncurses5-dev libsdl1.2-dev 
 		libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev 
-		gperf openjdk-7-jdk openjdk-7-jre gcc curl repo python-markdown
+		gperf openjdk-7-jdk openjdk-7-jre gcc curl repo python-markdown libstdc++6-4.4-dbg
 
 	// По мере установки, дополню пакеты...
 
